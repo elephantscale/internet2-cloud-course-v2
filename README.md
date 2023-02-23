@@ -2,7 +2,7 @@
 
 [Course outline](docs/Internet2-Course-Outline.docx)
 
-Pre-requisite Readings
+[Suggested Readings](docs/suggested-readings.md)
 
 Slides
 
