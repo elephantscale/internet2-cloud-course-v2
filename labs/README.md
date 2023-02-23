@@ -1,6 +1,17 @@
 # Internet2 Cloud Labs
 
-Labs will be done in [www.qwiklabs.com](https://www.qwiklabs.com)
+## Lab Environments
+
+* For AWS: [amazon.qwiklabs.com](https://amazon.qwiklabs.com/)
+* For Google: [www.cloudskillsboost.google](https://www.cloudskillsboost.google/)
+* For Azure: [portal.azure.com](https://portal.azure.com/)
+
+Few things to note:
+
+* <mark>Use seperate PRIVATE / INCOGNITO browser windows, when switching users, so you are working on isolated environments</mark>
+* If you run into any conflicts, use <mark>two different browsers (i.e. Chrome and Firefox)</mark>
+
+
 
 ## 01 - Introduction to the cloud
 

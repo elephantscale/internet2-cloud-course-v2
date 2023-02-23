@@ -10,18 +10,26 @@
 * Setup and manage users
 * Runtime: 45 mins
 * Instructions - [Introduction to AWS Identity and Access Management (IAM)](https://amazon.qwiklabs.com/focuses/56624?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=21967144)
+* Notes
+    - To see what each group can do, check the **permissions** tab
+    - [IAM roles doc](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/iam-roles-for-amazon-ec2.html)
 
 ## Google
 
 * Setup cloud user account
 * Runtime: 45 mins
 * Instructions - [Cloud IAM: Qwik Start](https://www.cloudskillsboost.google/focuses/44159?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=21967166)
+* Notes
+    - [Understanding users and roles](https://cloud.google.com/iam/docs/understanding-roles)
 
 ## Azure
 
 * Setup cloud user account
 * Runtime: 45 mins
 * Instructions - [Azure User IDs](https://learn.microsoft.com/en-us/training/modules/create-users-and-groups-in-azure-active-directory/3-exercise-add-delete-users-azure-ad)
+    - For this lab, be sure to **switch to sandbox environment**
+* Notes:
+    - [Azure user roles documentation](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference)
 
 ## Advanced (Optional) - Audit Users (AWS)
 
