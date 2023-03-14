@@ -1,9 +1,8 @@
-# Cloud Storage and DB
+# Cloud Storage
 
 ## Objectives
 
 * Understand cloud storage options
-* Understand various datastores in the cloud
 
 You can choose one of the labs below per cloud service.
 
