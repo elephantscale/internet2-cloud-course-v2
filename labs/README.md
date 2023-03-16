@@ -31,27 +31,31 @@ Manage users and permissions.
 
 * [02.1 - IAM management](02-iam/README.md)
 
-### 03 - Cloud Storage
+### 02 - Compute
+
+[02-compute/](02-compute/)
+
+### 04 - Cloud Storage
 
 Dealing with blob/file storage systems.
 
-[03-storage/](03-storage/)
+[04-storage/](04-storage/)
 
-* [03.1 - Cloud Storate and Datastores](03-storage/README.md)
+* [04.1 - Cloud Storate and Datastores](04-storage/README.md)
 
-### 04 - Data Stores
+### 05 - Data Stores
 
 Databases, noSQLs ..etc
 
-[04-datastores/](04-datastores/)
+[05-datastores/](05-datastores/)
 
-* [04.1 - RDMBS](04-datastores/RDBMS.md)
-* [04.2 - NoSQL](04-datastores/NoSQL.md)
+* [05.1 - RDMBS](05-datastores/RDBMS.md)
+* [05.2 - NoSQL](05-datastores/NoSQL.md)
 
-## 05 - Networking
+## 06 - Networking
 
 Create VPCs, firewall rules ..etc
 
-[05-networking/](05-networking/)
+[06-networking/](06-networking/)
 
-* [05.1 - VPC Networks](05-networking/README.md)
+* [06.1 - VPC Networks](06-networking/README.md)
