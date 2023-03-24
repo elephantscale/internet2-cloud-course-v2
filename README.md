@@ -4,6 +4,8 @@
 
 [Suggested Readings](docs/suggested-readings.md)
 
+[Getting ready for the class](getting-ready-for-class.md)
+
 Slides
 
 [Labs](labs/README.md)
