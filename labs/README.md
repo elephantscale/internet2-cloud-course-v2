@@ -66,3 +66,11 @@ Create VPCs, firewall rules ..etc
 
 * [06.1 - VPC Networks](06-networking/README.md)
 
+## 07 - Containers
+
+[07-containers/](07-containers/)
+
+### Docker
+
+* [07.1 - Docker](07-containers/docker.md)
+* [07-2 - **Fun with containers!**](containers/container-fun.md)
