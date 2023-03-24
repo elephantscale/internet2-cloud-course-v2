@@ -6,7 +6,9 @@ Easiest way to run Azure commands is via **web/cloud shell** in Azure console.
 
 Or you can install Azure CLI on your local computer
 
-[Installation instructions](https://learn.microsoft.com/en-us/cli/azure/)
+[Installation instructions](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)
+
+[Getting started](https://learn.microsoft.com/en-us/cli/azure/get-started-with-azure-cli)
 
 Verify
 
@@ -28,6 +30,23 @@ ml                                2.14.1
 ssh                                1.1.5
 ...
 ...
+```
+
+Login
+
+```bash
+$   az   login
+
+# this will open a web browser and ask you to login.  proceeed.
+```
+
+Set subscriptions
+
+```bash
+$   az account list
+
+# set subscription to "XXXX"
+$   az account set --subscription "XXXX"
 ```
 
 List resources:
