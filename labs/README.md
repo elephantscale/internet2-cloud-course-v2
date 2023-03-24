@@ -22,6 +22,9 @@ Quick overview.  Get access to cloud env.
 [01-intro/](01-intro/)
 
 * [01.1 - Cloud Intro](01-intro/README.md)
+* [01.2 - AWS CLI](01-intro/aws.md)
+* [01.3 - GCP CLI](01-intro/gcp.md)
+* [01.4 - Azure CLI](01-intro/azure.md)
 
 ### 02 - IAM User Management
 
@@ -62,3 +65,4 @@ Create VPCs, firewall rules ..etc
 [06-networking/](06-networking/)
 
 * [06.1 - VPC Networks](06-networking/README.md)
+
