@@ -1,2 +1,7 @@
 .~*
 .vscode/
+
+## Terraform files
+*.tfstate*
+.terraform*
+.terraform/
