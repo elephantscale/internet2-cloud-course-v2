@@ -17,6 +17,16 @@ Run teraform in the cloud
 
 ### Protips
 
+**Quick install**
+
+```bash
+$   wget https://releases.hashicorp.com/terraform/1.4.4/terraform_1.4.4_linux_amd64.zip
+$   unzip terraform_1.4.4_linux_amd64.zip
+$   sudo mv terraform  /usr/local/bin/
+$   terraform version
+$   alias tf=terraform
+```
+
 **Proceeed without prompting**
 
 Use `auto-approve` flag
