@@ -75,6 +75,12 @@ Create VPCs, firewall rules ..etc
 * [07.1 - Docker](07-containers/docker.md)
 * [07-2 - **Fun with containers!**](07-containers/container-fun.md)
 
+## 08 - AI/ML
+
+* [08.1 - Jupyter notebooks on the cloud](08-ml/ml-1-jupyter-envs.md)
+* [08.2 - Native ML environments in the Cloud](08-ml/ml-2-native-ML-envs.md)
+* [08.3 - The power of GPU](08-ml/ml-3-gpu.md)
+
 ## 09 - Infrastructure as Code (IaC) - Terraform
 
 [09-iac-tf/](09-iac-tf/)
