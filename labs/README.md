@@ -34,13 +34,13 @@ Manage users and permissions.
 
 * [02.1 - IAM management](02-iam/README.md)
 
-### 02 - Compute
+### 03 - Compute
 
-[02-compute/](02-compute/)
+[03-compute/](03-compute/)
 
-* [02.1 - Virtual Machines](03-compute/vms.md)
-* [02.2 - Scaling and load balancing](03-compute/scaling.md)
-* [02.3 - Serveless computing](03-compute/serverless.md)
+* [03.1 - Virtual Machines](03-compute/vms.md)
+* [03.2 - Scaling and load balancing](03-compute/scaling.md)
+* [03.3 - Serveless computing](03-compute/serverless.md)
 
 ### 04 - Cloud Storage
 
@@ -76,6 +76,10 @@ Create VPCs, firewall rules ..etc
 * [07.1 - Docker](07-containers/docker.md)
 * [07-2 - **Fun with containers!**](07-containers/container-fun.md)
 
+### Kubernetes
+
+* [07.3 - Kubernetes](07-containers/kubernetes.md)
+
 ## 08 - AI/ML
 
 * [08.1 - Jupyter notebooks on the cloud](08-ml/ml-1-jupyter-envs.md)
@@ -96,3 +100,5 @@ Create VPCs, firewall rules ..etc
 ## 11 - Billing and Cost Optimization
 
 * [11.1 - Analyzing billing](11-cost/billing.md)
+
+## 12 - Wrap up and Next Steps
