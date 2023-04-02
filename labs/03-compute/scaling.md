@@ -22,3 +22,16 @@
 * Level: Intermediate
 * Instructions: [Maintaining High Availability with Auto Scaling](https://amazon.qwiklabs.com/focuses/54815?parent=catalog)
     - You may skip the notifications setup using SNS
+
+---
+
+## AZURE-1: Autoscaling in Azure
+
+[Azure auto scale overview](https://learn.microsoft.com/en-us/azure/azure-monitor/autoscale/autoscale-overview)
+
+* Autoscale VMs with load
+* Runtime: 1 hr
+* Instructions: [Automatically scale a Virtual Machine Scale Set](https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/tutorial-autoscale-cli)
+
+---
+

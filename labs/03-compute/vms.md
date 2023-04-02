@@ -37,3 +37,48 @@
 * Instructions: [Introduction to Amazon EC2](https://amazon.qwiklabs.com/focuses/57537?catalog_rank=%7B%22rank%22%3A13%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=22871637)
 
 ---
+
+## AZURE-0: VMs on Azure
+
+[Azure VM overview](https://learn.microsoft.com/en-us/azure/virtual-machines/)
+
+---
+
+## AZURE-1: Create a VM on Azure
+
+* Create a Linux VM on Azure
+* Runtime: 1 hr
+* Instructions: [Create a Linux virtual machine in Azure](https://learn.microsoft.com/en-us/training/modules/create-linux-virtual-machine-in-azure/)
+
+---
+
+## QUIZ-1: Right Sizing VMs for Use Cases
+
+[EC2 VM types](https://aws.amazon.com/ec2/instance-types/)
+
+[Google Cloud VM types](https://cloud.google.com/compute/docs/machine-resource)
+
+[Azure VM types](https://azure.microsoft.com/en-us/pricing/details/virtual-machines/series/)
+
+**Discuss VM types and their costs for following use cases**
+
+**Do compare cost (per month) across various clouds**
+
+### A Web Server
+
+* Handles a lot of requests per seconds
+
+### A Database Server
+
+* Needs very fast disk IO
+* And lots of memory
+
+### A Chat Server
+
+* Handles a lot of encrypted connections
+
+### A Caching server
+
+* Needs a lot of memory
+
+---

@@ -27,6 +27,14 @@ gcloud-crc32c 1.0.0
 gsutil 5.11
 ```
 
+Initialize
+
+```bash
+$   gcloud init
+```
+
+This will walk you through project setup.
+
 To see running instances:
 
 ```bash

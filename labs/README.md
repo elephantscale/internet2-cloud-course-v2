@@ -40,6 +40,7 @@ Manage users and permissions.
 
 * [02.1 - Virtual Machines](03-compute/vms.md)
 * [02.2 - Scaling and load balancing](03-compute/scaling.md)
+* [02.3 - Serveless computing](03-compute/serverless.md)
 
 ### 04 - Cloud Storage
 
