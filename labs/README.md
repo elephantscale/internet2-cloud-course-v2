@@ -90,3 +90,9 @@ Create VPCs, firewall rules ..etc
 * [09.2 - Using Terraform Cloud service](09-iac-tf/terraform-cloud.md)
 * [09.3 - Team exercise: Manage a blue/green deployment using TF](09-iac-tf/terraform-3-blue-green-deployment.md)
 * [09.4 - Team exercise: Deploy a kubernetes cluster using TF](09-iac-tf/terraform-4-kubernetes.md)
+
+## 10 - Infrastructure as Code (IaC) - Ansible
+
+## 11 - Billing and Cost Optimization
+
+* [11.1 - Analyzing billing](11-cost/billing.md)
