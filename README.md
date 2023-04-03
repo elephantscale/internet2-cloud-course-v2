@@ -1,6 +1,6 @@
 # Internet2 Cloud Course V2
 
-[Course outline](docs/Internet2-Course-Outline.docx)
+[Course outline](docs/Internet2-Course-Outline-v2c.docx)
 
 [Suggested Readings](docs/suggested-readings.md)
 
