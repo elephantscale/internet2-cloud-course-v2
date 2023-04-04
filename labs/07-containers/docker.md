@@ -48,6 +48,7 @@ $   docker run --rm  -p 8080:80  nginx
 * Build a sample python web app
 * Runtime: 15 mins
 * [Instructions - follow step-1](flask-docker/README.md)
+* **Note:**  This code is also available at [github repo](https://github.com/sujee/flask-docker), so you can readily fork it and make changes easily
 
 ---
 

@@ -8,13 +8,15 @@
 
 ---
 
-## Google-1: Google Compute
+## GOOGLE-0: Google Compute
 
 [Google compute overview](https://cloud.google.com/compute/)
 
 [Google compute docs](https://cloud.google.com/compute/docs/instances)
 
-**Lab: Creating a VM in Google Cloud (Basic)**
+---
+
+## Google-1: Creating a VM in Google Cloud (Basic)
 
 * This lab will walk you through, how to setup a VM and install a simple web server on it.
 * Runtime: 40 mins
@@ -23,13 +25,15 @@
 
 ---
 
-## AWS-1: Introduction to Amazon EC2
+## AWS-0: Amazon EC2
 
 [AWS EC2 overview](https://aws.amazon.com/ec2/)
 
 [EC2 documentation](https://docs.aws.amazon.com/ec2/index.html?nc2=h_ql_doc_ec2)
 
-**Lab: Introduction to Amazon EC2**
+---
+
+## AWS-1: Introduction to Amazon EC2
 
 * This lab will walk you through how to launch an EC2 instance, and setup a webserver on it.  It also shows how to access the instance using SSH and resizing disks ..etc
 * Runtime: 1 hr
@@ -60,25 +64,31 @@
 
 [Azure VM types](https://azure.microsoft.com/en-us/pricing/details/virtual-machines/series/)
 
-**Discuss VM types and their costs for following use cases**
+**Discuss VM types for following use cases**
 
-**Do compare cost (per month) across various clouds**
+**What are specific VM types (i.e. m2.xlarge) you might choose for each use case**
 
-### A Web Server
+**Do a cost comparison (per month) across various clouds**
+
+### A. Web Server
 
 * Handles a lot of requests per seconds
 
-### A Database Server
+### B. Database Server
 
 * Needs very fast disk IO
 * And lots of memory
 
-### A Chat Server
+### C. Chat Server
 
 * Handles a lot of encrypted connections
 
-### A Caching server
+### D. Caching server
 
 * Needs a lot of memory
+
+### E. GPU Machine for Deep Learning
+
+* Need cutting edge GPU
 
 ---

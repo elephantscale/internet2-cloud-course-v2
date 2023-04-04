@@ -8,8 +8,8 @@
 
 Few things to note:
 
-* <mark>Use seperate PRIVATE / INCOGNITO browser windows, when switching users, so you are working on isolated environments</mark>
-* If you run into any conflicts, use <mark>two different browsers (i.e. Chrome and Firefox)</mark>
+* **Use seperate PRIVATE / INCOGNITO browser windows, when switching users, so you are working on isolated environments**
+* If you run into any conflicts, try using **two different browsers (i.e. Chrome and Firefox)**
 
 ---
 
