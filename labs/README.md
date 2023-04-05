@@ -71,34 +71,38 @@ Create VPCs, firewall rules ..etc
 
 [07-containers/](07-containers/)
 
-### Docker
-
 * [07.1 - Docker](07-containers/docker.md)
 * [07-2 - **Fun with containers!**](07-containers/container-fun.md)
 
-### Kubernetes
+## 08 - Kubernetes
 
-* [07.3 - Kubernetes](07-containers/kubernetes.md)
+* [08.1 - Kuberntes local install using minikube](08-containers/kubernetes-1-minikube.md)
 
-## 08 - AI/ML
+    A local kubernetes setup is nice to have, so you can learn the basics without a cloud.
 
-* [08.1 - Jupyter notebooks on the cloud](08-ml/ml-1-jupyter-envs.md)
-* [08.2 - Native ML environments in the Cloud](08-ml/ml-2-native-ML-envs.md)
-* [08.3 - The power of GPU](08-ml/ml-3-gpu.md)
+* [08.2 Exploring kubernetes](08-kubernetes/kubernetes-2-exploring-kubectl.md) - **Reference** -  contains some handy commands 
 
-## 09 - Infrastructure as Code (IaC) - Terraform
+* [08.3 - Kubernetes in the cloud](08-containers/kubernetes-3-cloud.md)
 
-[09-iac-tf/](09-iac-tf/)
+## 09 - AI/ML
 
-* [09.1 - Running Terraform on various clouds](09-iac-tf/terraform-1.md)
-* [09.2 - Using Terraform Cloud service](09-iac-tf/terraform-cloud.md)
-* [09.3 - Team exercise: Manage a blue/green deployment using TF](09-iac-tf/terraform-3-blue-green-deployment.md)
-* [09.4 - Team exercise: Deploy a kubernetes cluster using TF](09-iac-tf/terraform-4-kubernetes.md)
+* [09.1 - Jupyter notebooks on the cloud](09-ml/ml-1-jupyter-envs.md)
+* [09.2 - Native ML environments in the Cloud](09-ml/ml-2-native-ML-envs.md)
+* [09.3 - The power of GPU](09-ml/ml-3-gpu.md)
 
-## 10 - Infrastructure as Code (IaC) - Ansible
+## 10 - Infrastructure as Code (IaC) - Terraform
 
-## 11 - Billing and Cost Optimization
+[10-iac-tf/](10-iac-tf/)
 
-* [11.1 - Analyzing billing](11-cost/billing.md)
+* [10.1 - Running Terraform on various clouds](10-iac-tf/terraform-1.md)
+* [10.2 - Using Terraform Cloud service](10-iac-tf/terraform-cloud.md)
+* [10.3 - Team exercise: Manage a blue/green deployment using TF](10-iac-tf/terraform-3-blue-green-deployment.md)
+* [10.4 - Team exercise: Deploy a kubernetes cluster using TF](10-iac-tf/terraform-4-kubernetes.md)
 
-## 12 - Wrap up and Next Steps
+## 11 - Infrastructure as Code (IaC) - Ansible
+
+## 12 - Billing and Cost Optimization
+
+* [12.1 - Analyzing billing](12-cost/billing.md)
+
+## 13 - Wrap up and Next Steps
