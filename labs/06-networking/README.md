@@ -13,7 +13,8 @@ Here is the architecture:
 <img src="web-stack-architecture-1.png">
 
 * To implement this, you can pick a network of your choice.
-* You will create 2 VPCs, one for webserver and one for database
+* You can do this with 1 VPC + 2 subnets
+* You will create 2 networks; a public one for webserver and a private one for database
 * 'network-1' that hosts webserver will allow incoming HTTP/HTTPS traffic from any IP address (0.0.0.0)
 * 'network-1' will also allow all traffic from a few selected IP address (these could be dev machines where we login from to do maintanance work)
 * 'network-2' that hosts database, will only allow traffic from 'network-1'
@@ -63,7 +64,7 @@ Verification:
 
 ---
 
-## Google-2: Multiple VPC Networks <mark>(Recommended Lab)</mark>
+## Google-2: Multiple VPC Networks **(Recommended Lab)**
 
 This is an intermediate lab.  You will create multiple VPC networks and VMs and test connectivity across networks
 
@@ -84,3 +85,5 @@ This is an intermediate lab.  You will create multiple VPC networks and VMs and 
 
 * Runtime: 1 hr
 * Instructions: [Configure virtual networks](https://learn.microsoft.com/en-us/training/modules/configure-virtual-networks/)
+
+---

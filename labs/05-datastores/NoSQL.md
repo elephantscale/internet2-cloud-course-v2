@@ -15,7 +15,7 @@ NoSQL Stores available
 
 ---
 
-## Google-1: BigTable
+## Google-0: BigTable
 
 [Google databases overview](https://cloud.google.com/products/databases/)
 
@@ -23,22 +23,31 @@ NoSQL Stores available
 
 [Big table docuemntation](https://codelabs.developers.google.com/codelabs/cloud-bigtable-intro-java/index.html#0)
 
-**Lab: BigTable Introduction**
+---
 
+## Google-1: BigTable Introduction
+
+* Get handson with big table
 * Runtime: 30 mins
 * Instructions: [Bigtable: Qwik Start - Command Line](https://www.cloudskillsboost.google/focuses/579?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=22818504)
-* Once you executed `cbt set my-table r1 cf1:c1=test-value` try these steps
+* Once you executed 
+
+    ```bash
+        cbt set my-table r1 cf1:c1=test-value
+    ```
+
+    try these steps
 * Override the value
 
-```bash
- $  cbt set my-table r1 cf1:c1=test-value2
- ```
+    ```bash
+    $  cbt set my-table r1 cf1:c1=test-value2
+    ```
 
 * And read table
 
-```bash
-$   bash cbt read my-table
-```
+    ```bash
+    $   bash cbt read my-table
+    ```
 
 * What values you see?  Notice the modification timestamps
 
@@ -54,7 +63,7 @@ Follow the guide to connect to BigTable from Python
 
 ---
 
-## AWS-1: DyanamoDB
+## AWS-0: DyanamoDB
 
 [AWS noSQL overview](https://aws.amazon.com/nosql/) - Use cases and pricing
 
@@ -62,8 +71,11 @@ Follow the guide to connect to BigTable from Python
 
 [DynamoDB documentation](https://docs.aws.amazon.com/dynamodb/index.html)
 
-**Lab: Introduction to Amazon DynamoDB**
+---
 
+## AWS-1: Introduction to Amazon DynamoDB
+
+* Try out 
 * Runtime: 45 mins
 * Instructions: [Introduction to Amazon DynamoDB](https://amazon.qwiklabs.com/focuses/51801?catalog_rank=%7B%22rank%22%3A4%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=22819312)
 
@@ -80,24 +92,25 @@ This lab uses python client to connect to DynamoDB.  You will need to have a pyt
 
 ---
 
-## Azure-1: Cosmos DB
-
-Documentation:
+## Azure-0: Cosmos DB
 
 * [CosmosDB overview](https://learn.microsoft.com/en-us/azure/cosmos-db/introduction)
 * [Intro to CosmosDB for NOSQL](https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-cosmos-db-sql-api/) - a good walk through of use cases
 
-Lab: CosmosDB
+---
+
+## Azure-1: Cosmos DB
 
 * Runtime : 30 mins
-* Instructions:
-    * Go to [portal.azure.com](https://portal.azure.com/)  or you can try a free version here: [Start with cosmos](https://cosmos.azure.com/try/)
-        * And create a 'CosmosDB' instance.  The steps are pretty straight forward
-    * Follow this guide: [Quickstart: Create an Azure Cosmos DB accoun](https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/quickstart-portal)
-    * Choose **python platform**
-    * This will download a python bundle for us to run.  Save this file
-    * We will use **data explorer** to put/get items into Cosmos.
-    * Open **data explorer**, navigate to **items** table and add some entries.
-    * And try a query to see if you can retrieve the items.
-    * **Discuss your findings**
-    * **NOTE: Once you are done with experimenting, delete the COSMOS instance**
+* Go to [portal.azure.com](https://portal.azure.com/)  or you can try a free version here: [Start with cosmos](https://cosmos.azure.com/try/)
+    * And create a 'CosmosDB' instance.  The steps are pretty straight forward
+* Follow this guide: [Quickstart: Create an Azure Cosmos DB accoun](https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/quickstart-portal)
+* Choose **python platform**
+* This will download a python bundle for us to run.  Save this file
+* We will use **data explorer** to put/get items into Cosmos.
+* Open **data explorer**, navigate to **items** table and add some entries.
+* And try a query to see if you can retrieve the items.
+* **Discuss your findings**
+* **NOTE: Once you are done with experimenting, delete the COSMOS instance**
+
+---

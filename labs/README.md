@@ -48,7 +48,7 @@ Dealing with blob/file storage systems.
 
 [04-storage/](04-storage/)
 
-* [04.1 - Cloud Storate and Datastores](04-storage/README.md)
+* [04.1 - Cloud Storage](04-storage/README.md)
 
 ### 05 - Data Stores
 

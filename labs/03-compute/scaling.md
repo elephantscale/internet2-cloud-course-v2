@@ -9,7 +9,7 @@
 ## Google-1: Set Up Network and HTTP Load Balancers (Recommended)
 
 * In this lab, you will setup a bunch of web servers and load balance traffic among them
-* Rumtime : 1 hr
+* Runtime : 1 hr
 * Level: Intermediate
 * Instructions: [Set Up Network and HTTP Load Balancers](https://www.cloudskillsboost.google/focuses/12007?parent=catalog)
 
