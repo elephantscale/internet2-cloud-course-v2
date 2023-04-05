@@ -28,8 +28,8 @@ Using hosted Jupyter notebook environments in the cloud
 * Open `testing-123.ipynb`
     * Select **File --> Upload Notebook** and select `testing-123` notebook
     * or Select **File --> Open Notebook --> Github**
-* Paste the following URL :  
-`https://github.com/elephantscale/internet2-cloud-course-v2/tree/main/labs/08-ml/testing-123.ipynb`
+* Paste the following URL :  [testing-123.ipynb](testing-123.ipynb)
+`https://github.com/elephantscale/internet2-cloud-course-v2/tree/main/labs/09-ml/testing-123.ipynb`
 * Run the notebook and make sure there are no errors!
 
 ---
@@ -76,7 +76,7 @@ Using hosted Jupyter notebook environments in the cloud
 
 ---
 
-## AWS-2: Running a Notebook on Sagemaker
+## AWS-2: Running Python Scikit-Learn on Sagemaker
 
 * Run a simple regression notebook on Sagemaker
 * Runtime: 15 mins

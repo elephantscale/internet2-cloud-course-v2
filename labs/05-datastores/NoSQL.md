@@ -43,13 +43,25 @@ NoSQL Stores available
     $  cbt set my-table r1 cf1:c1=test-value2
     ```
 
-* And read table
+* And read the table
 
     ```bash
-    $   bash cbt read my-table
+    $   cbt read my-table
     ```
 
 * What values you see?  Notice the modification timestamps
+
+* Create another row `r2`, with a new column `c10`
+
+    ```bash
+    $  cbt set my-table r2 cf1:c10=x10
+    ```
+
+* And scan the table
+
+    ```bash
+    $   cbt read my-table
+    ```
 
 ---
 
