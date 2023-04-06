@@ -9,6 +9,11 @@ Using hosted Jupyter notebook environments in the cloud
 * [Six easy ways to run your Jupyter Notebook in the cloud](https://www.dataschool.io/cloud-services-for-jupyter-notebook/)
 * [Choosing the Right JupyterHub Infrastructure](https://data.berkeley.edu/choosing-right-jupyterhub-infrastructure)
 
+Here are some machine learning notebook repos:
+
+* [elephantscale/machine-learning-workshop](https://github.com/elephantscale/machine-learning-workshop)
+* [elephantscale/cool-ML-demos](https://github.com/elephantscale/cool-ML-demos)
+
 ---
 
 ## GOOGLE-0: ML on Google Cloud

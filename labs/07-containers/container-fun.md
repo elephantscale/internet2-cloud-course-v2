@@ -2,6 +2,8 @@
 
 Who says containers are all work and no play!  Run these fun containers and have some fun!
 
+---
+
 ## Pacman
 
 https://hub.docker.com/r/golucky5/pacman
@@ -16,6 +18,8 @@ http://localhost:8000
 Rejoice!
 
 And post your highest score!! (We need to see proof!)
+
+---
 
 ## Super Mario
 

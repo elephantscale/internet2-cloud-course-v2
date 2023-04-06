@@ -6,7 +6,7 @@ We will deploy docker containers in teh cloud
 
 ---
 
-## DOCKER-1: Install Docker on your local machine
+## DOCKER-1A: Install Docker on your local machine
 
 * Go to [docker.com](https://www.docker.com/)
 * And download and install the docker for your platform
@@ -17,6 +17,49 @@ $   docker images
 
 $   docker run hello-world
 # if you see the message "Hello from Docker!" you are good to go!
+```
+
+---
+
+## DOCKER-1B: Getting a VM in the Cloud to Run Docker
+
+If you don't have a docker capable environment, you can provision a VM in the cloud.
+
+* Here is how to [provision a VM in Google Cloud](https://www.cloudskillsboost.google/focuses/3563?catalog_rank=%7B%22rank%22%3A6%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=22871506) - using qwiklabs
+
+* Here is how to provision a VM in AWS: [Introduction to Amazon EC2](https://amazon.qwiklabs.com/focuses/57537?catalog_rank=%7B%22rank%22%3A13%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=22871637) - using qwiklabs
+
+* VM specs
+    * 2 vCPU, 8 GB
+    * Ubuntu 22.04 LTS
+    * disk size= 20G
+    * Allow HTTP/s traffic
+
+* Once you login to the VM do the following steps to setup docker
+
+```bash
+sudo apt update
+
+sudo apt  install -y  docker.io  
+
+sudo docker images
+
+sudo docker ps
+
+sudo docker run hello-world
+
+sudo docker run --rm  -p 80:80  nginx
+```
+
+if you want to run docker without sudo, try this
+
+```bash
+sudo usermod -aG docker $(whoami)
+
+# logout and log back in
+# if this works, then the user have permissions
+
+docker images
 ```
 
 ---
@@ -36,10 +79,15 @@ $   docker run hello-world
 ```bash
 $   docker pull nginx
 
-$   docker run --rm  -p 8080:80  nginx
+$   docker run --rm  -p 80:80  nginx
 ```
 
-* See the page by going to [localhost:8080](http://localhost:8080).  If you see 'Welcome to nginx!'  you are good!
+* See the page by going to [localhost:80](http://localhost:80).  If you see 'Welcome to nginx!'  you are good!
+
+```bash
+curl  localhost:80
+```
+
 
 ---
 
