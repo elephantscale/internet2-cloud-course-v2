@@ -101,6 +101,9 @@ Create VPCs, firewall rules ..etc
 
 ## 11 - Infrastructure as Code (IaC) - Ansible
 
+* [11.1 - Install Ansible](11-iac-ansible/ansible-1-install.md)
+* [11.2 - First Ansible command](11-iac-ansible/ansible-2-inventory.md)
+
 ## 12 - Billing and Cost Optimization
 
 * [12.1 - Analyzing billing](12-cost/billing.md)
