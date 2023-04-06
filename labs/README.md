@@ -76,13 +76,13 @@ Create VPCs, firewall rules ..etc
 
 ## 08 - Kubernetes
 
-* [08.1 - Kuberntes local install using minikube](08-containers/kubernetes-1-minikube.md)
+* [08.1 - Kuberntes local install using minikube](08-kubernetes/kubernetes-1-minikube.md)
 
     A local kubernetes setup is nice to have, so you can learn the basics without a cloud.
 
 * [08.2 Exploring kubernetes](08-kubernetes/kubernetes-2-exploring-kubectl.md) - **Reference** -  contains some handy commands 
 
-* [08.3 - Kubernetes in the cloud](08-containers/kubernetes-3-cloud.md)
+* [08.3 - Kubernetes in the cloud](08-kubernetes/kubernetes-3-cloud.md)
 
 ## 09 - AI/ML
 

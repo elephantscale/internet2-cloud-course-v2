@@ -29,7 +29,7 @@ Analyze billing reports
 
 ## AZURE-0: Azure Cost Optimization
 
-* Azure Well-Architected Framework - Cost optimization](https://learn.microsoft.com/en-us/training/modules/azure-well-architected-cost-optimization/)
+* [Azure Well-Architected Framework - Cost optimization](https://learn.microsoft.com/en-us/training/modules/azure-well-architected-cost-optimization/)
 
 ---
 
