@@ -10,7 +10,7 @@ On this lab you will learn how to create replicasets to manage your pods and sca
 
 ## Step 1 - replicaset file
 
-inspect  [replicaset file](replicaset-nginx.yaml)
+inspect  [replicaset-nginx.yaml](replicaset-nginx.yaml)
 
 ## Step 2 - Apply replicaset file
 

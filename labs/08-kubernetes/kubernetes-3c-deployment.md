@@ -8,7 +8,7 @@
 
 ## Step-1: Deployment file
 
-inspect  [deployment file](deployment-nginx.yaml)
+inspect  [deployment-nginx.yaml](deployment-nginx.yaml)
 
 ## Step-3: Apply Deployment file
 
