@@ -1,0 +1,15 @@
+---
+
+- name: Our First Play
+  hosts: webservers
+  gather_facts: no
+
+
+  tasks:
+    - name: Say hi
+      debug:
+        msg: "Hello World"
+    
+    - name: Say bye
+      debug:
+        msg: "Good bye"

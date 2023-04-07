@@ -6,11 +6,25 @@ In this lab, You will lean how to install Ansible on your control machine.
 
 20 minutes
 
-## Step 1 - Login
+## Step-1: Spin up a Cloud machine
 
-* Login to your lab machine
+* OS: ubuntu  22.04 LTS
 
-## Step 2 — Installing Ansible
+This will be our **ansible workstation**
+
+## Step 2 - Login
+
+Login to your lab machine using web based SSH
+
+Switch to ubuntu user
+
+```bash
+sudo su - ubuntu
+```
+
+From this point on you will execute all commands are user ubuntu.
+
+## Step 3 — Installing Ansible
 
 Confirm that you have ansible installed as follows
 
@@ -47,4 +61,4 @@ $ sudo apt-get install -y ansible
 
 Try to the get the `ansible` version.
 
-## Well done! 👏
+## Lab is done! 👏

@@ -1,0 +1,14 @@
+---
+- name: Update Web Servers
+  hosts: webservers
+  become: yes
+  become_user: root
+
+  tasks:
+
+    - name: Ensure ngninx is the latest version
+      apt:
+        name: nginx
+        state: latest
+        update_cache: yes
+    

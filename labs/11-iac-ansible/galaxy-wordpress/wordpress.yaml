@@ -1,0 +1,24 @@
+---
+- name: Install WordPress on Ubuntu
+  hosts: wordpress
+  become: yes
+  vars:
+    # MySQL configuration
+    mysql_root_password: "StrongMySQLRootPassword"
+    mysql_databases:
+      - name: "wordpress"
+    mysql_users:
+      - name: "wordpress"
+        password: "StrongMySQLUserPassword"
+        priv: "wordpress.*:ALL"
+
+    # WordPress configuration
+    wordpress_mysql_user: "wordpress"
+    wordpress_mysql_password: "StrongMySQLUserPassword"
+    wordpress_mysql_database: "wordpress"
+    wordpress_install_dir: "/var/www/wordpress"
+    wordpress_domain: "yourdomain.com"
+
+  roles:
+    - geerlingguy.mysql
+    - geerlingguy.wordpress

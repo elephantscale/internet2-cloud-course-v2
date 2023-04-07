@@ -102,7 +102,15 @@ Create VPCs, firewall rules ..etc
 ## 11 - Infrastructure as Code (IaC) - Ansible
 
 * [11.1 - Install Ansible](11-iac-ansible/ansible-1-install.md)
-* [11.2 - First Ansible command](11-iac-ansible/ansible-2-inventory.md)
+* [11.2 - Setting up inventory](11-iac-ansible/ansible-2-inventory.md)
+* [11.3 - Adhoc commands](11-iac-ansible/ansible-3-adhoc.md)
+* [11.4 - Playbook 1](11-iac-ansible/ansible-4-playbook-1.md)
+* [11.5 - Playbook 2](11-iac-ansible/ansible-4-playbook-2.md)
+* [11.6 - Galaxy](11-iac-ansible/galaxy-wordpress/readme.md)
+
+More ansible labs:
+
+* [elephantscale/ansible-labs](https://github.com/elephantscale/ansible-labs)
 
 ## 12 - Billing and Cost Optimization
 

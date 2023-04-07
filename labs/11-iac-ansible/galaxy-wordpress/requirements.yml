@@ -1,0 +1,4 @@
+- src: geerlingguy.mysql
+  version: 3.5.0
+- src: geerlingguy.wordpress
+  version: 4.1.0

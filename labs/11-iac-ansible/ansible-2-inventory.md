@@ -6,15 +6,18 @@ Define Ansible inventory file
 
 20 minutes
 
-## Step 1 — Create project
+## Step-1: Login as ubuntu user
 
-Create your project folder.
+* Once you login using web shell
+* Switch to ubuntu user
 
 ```bash
-mkdir -p  ~/proj-1/
+sudo su - ubuntu
 ```
 
-to follow a practice coding advices, we'll create a folder to store our inventories there
+## Step 1 — Create project
+
+To follow a practice coding advices, we'll create a folder to store our inventories there
 
 ```text
 proj-1
@@ -26,17 +29,27 @@ proj-1
     └── inventory
 ```
 
+But for this one, we will keep it simple
+
 ```bash
-mkdir -p  ~/proj-1/production/
+mkdir -p  ~/proj-1
 ```
  
 **NOTE:** Inventory file is extensionless.
 
 ```bash
-touch -p  ~/proj-1/production/inventory
+touch -p  ~/proj-1/inventory
 ```
 
-## Step 2 - Add Hosts
+## Step-2: Spin up 2 more machines
+
+**Use the feature 'create similar' to create two more machines**
+
+These will be target machines.
+
+Note their internal IP addresses.  We will use these below
+
+## Step 3 - Add Hosts
 
 Here is a sample format
 
@@ -58,21 +71,28 @@ Here is an example
 ```text
 [webservers]
 1.2.3.4
+
+[dbservers]
+5.6.7.8
 ```
 
-## Step 3 — Test the Host file
+## Step 4 — Test the Host file
 
 Try to ping the hosts in the new inventory
 
 ```bash
 $   cd ~/proj-1
 
-$   ansible -i production/inventory all  -m ping
+$   ansible -i inventory all  -m ping
 
-$   ansible -i production/inventory webservers  -m ping
+$   ansible -i inventory webservers  -m ping
+
+$   ansible -i inventory dbservers  -m ping
 ```
 
-## Step-4: Setting up SSH
+**This step probably failed.  Because SSH is not setup**.  We will do this in the next step.
+
+## Step-5: Setting up SSH
 
 Ansible uses SSH connections to run its commands.
 
@@ -89,9 +109,10 @@ $   ssh-keygen
 
 # see the public key like this
 $   cat   ~/.ssh/id_rsa.pub
+# copy this text for next step
 ```
 
-**On target machine**
+**Login to each target machine and execute these steps**
 
 Login using web ssh
 
@@ -108,8 +129,31 @@ $   cat >  ~/.ssh/authorized_keys
 
 #  see the authorized_keys
 $   cat  ~/.ssh/authorized_keys
+
+# and set the permissions
+$   chmod 600  ~/.ssh.*
 ```
+
+**Test ssh connectivity from ansible machine**
+
+Be sure to execute this command as user `ubuntu`
+
+```bash
+ssh  INTERNAL_IP_ADDDRESS_OF_TARGET_1
+```
+
+```bash
+ssh  INTERNAL_IP_ADDDRESS_OF_TARGET_2
+```
+
+Both of these should succeed!
 
 Now try ansible command again
 
-## Well done! 👏
+```bash
+ansible -i inventory webservers all -m ping
+```
+
+This should succeed now!
+
+## Lab is done! 👏
