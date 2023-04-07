@@ -21,7 +21,7 @@ cd  proj-1
 And we will run the commands from here
 
 ```bash
-ansible  -i inventory  -a "hostname"
+ansible  -i inventory all -a "hostname"
 ```
 
 This should print out the hostname for each host
@@ -29,7 +29,7 @@ This should print out the hostname for each host
 **Find out disk usage on each host**
 
 ```bash
-ansible  -i inventory  -a "df -kh"
+ansible  -i inventory all -a "df -kh"
 ```
 
 ## Step-3: Try a few adhoc commands

@@ -21,6 +21,10 @@ gcloud auth list
 ```
 
 ```bash
+gcloud config set compute/zone us-central1-b
+```
+
+```bash
 gcloud container clusters create io
 ```
 
@@ -48,6 +52,12 @@ deployment.apps/deployment-rollout-1 created
 
 ```bash
 $ kubectl expose deployment deployment-rollout-1 --port=80 --type=NodePort
+```
+
+or if you are running on public cloud
+
+```bash
+kubectl expose deployment deployment-rollout-1 --port=80 --type=LoadBalancer
 ```
 
 output

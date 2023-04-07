@@ -1,4 +1,6 @@
-# Overview
+# Setting up Ansible Inventory File
+
+## Overview
 
 Define Ansible inventory file
 
@@ -116,13 +118,19 @@ $   cat   ~/.ssh/id_rsa.pub
 
 Login using web ssh
 
+become user ubuntu
+
+```bash
+sudo su - ubuntu
+```
+
 Add the public key to `~/.ssh/authorized_keys` file like this...
 
 ```bash
 
 $   mkdir   -p  ~/.ssh
 
-$   cat >  ~/.ssh/authorized_keys
+$   cat >>  ~/.ssh/authorized_keys
 # now paste the public key here
 # Enter Ctrl+d  to finish input
 
@@ -151,7 +159,15 @@ Both of these should succeed!
 Now try ansible command again
 
 ```bash
-ansible -i inventory webservers all -m ping
+ansible -i inventory all -m ping
+```
+
+```bash
+ansible -i inventory  dbservers -m ping
+```
+
+```bash
+ansible -i inventory  dbservers,webservers -m ping
 ```
 
 This should succeed now!

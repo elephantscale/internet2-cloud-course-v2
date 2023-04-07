@@ -68,6 +68,10 @@ resource "google_compute_instance" "terraform-2" {
 ## Step-3: Execute `tf plan` and review
 
 ```bash
+$   terraform init
+```
+
+```bash
 $   terraform plan
 ```
 
