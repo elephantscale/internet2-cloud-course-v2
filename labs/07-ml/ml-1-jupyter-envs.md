@@ -34,7 +34,7 @@ Here are some machine learning notebook repos:
     * Select **File --> Upload Notebook** and select `testing-123` notebook
     * or Select **File --> Open Notebook --> Github**
 * Paste the following URL :  [testing-123.ipynb](testing-123.ipynb)
-`https://github.com/elephantscale/internet2-cloud-course-v2/tree/main/labs/09-ml/testing-123.ipynb`
+`https://github.com/elephantscale/internet2-cloud-course-v2/tree/main/labs/07-ml/testing-123.ipynb`
 * Run the notebook and make sure there are no errors!
 
 ---

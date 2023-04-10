@@ -67,25 +67,27 @@ Create VPCs, firewall rules ..etc
 
 * [06.1 - VPC Networks](06-networking/README.md)
 
-## 07 - Containers
+## 07 - AI/ML
 
-[07-containers/](07-containers/)
+* [07.1 - Jupyter notebooks on the cloud](07-ml/ml-1-jupyter-envs.md)
+* [07.2 - Native ML environments in the Cloud](07-ml/ml-2-native-ML-envs.md)
+* [07.3 - The power of GPU](07-ml/ml-3-gpu.md)
 
-* [07.1 - Docker](07-containers/docker.md)
-* [07-2 - **Fun with containers!**](07-containers/container-fun.md)
+## 08 - Containers
 
-## 08 - Kubernetes
+[08-containers/](08-containers/)
 
-* [08.1 - Kuberntes local install using minikube](08-kubernetes/kubernetes-1-minikube.md) -  A local kubernetes setup is nice to have, so you can learn the basics without a cloud.
-* [08.2 Exploring kubernetes](08-kubernetes/kubernetes-2-exploring-kubectl.md) - **Reference** -  contains some handy commands
-* [08.3 - Kubernetes in the cloud](08-kubernetes/kubernetes-3-cloud.md)
-* [08.4 - Rolling out deployments](08-kubernetes/kubernetes-3d-deployment-rollout.md)
+* [08.1 - Docker](08-containers/docker.md)
+* [08-2 - **Fun with containers!**](08-containers/container-fun.md)
 
-## 09 - AI/ML
+## 09 - Kubernetes
 
-* [09.1 - Jupyter notebooks on the cloud](09-ml/ml-1-jupyter-envs.md)
-* [09.2 - Native ML environments in the Cloud](09-ml/ml-2-native-ML-envs.md)
-* [09.3 - The power of GPU](09-ml/ml-3-gpu.md)
+[09-kubernetes/](09-kubernetes/)
+
+* [09.1 - Kuberntes local install using minikube](09-kubernetes/kubernetes-1-minikube.md) -  A local kubernetes setup is nice to have, so you can learn the basics without a cloud.
+* [09.2 Exploring kubernetes](09-kubernetes/kubernetes-2-exploring-kubectl.md) - **Reference** -  contains some handy commands
+* [09.3 - Kubernetes in the cloud](09-kubernetes/kubernetes-3-cloud.md)
+* [09.4 - Rolling out deployments](09-kubernetes/kubernetes-3d-deployment-rollout.md)
 
 ## 10 - Infrastructure as Code (IaC) - Terraform
 
