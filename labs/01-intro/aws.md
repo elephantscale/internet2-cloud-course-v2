@@ -1,10 +1,24 @@
-# Getting Started with AWS CLI
+# Getting Started with AWS
 
-## AWS-CLI
+## 1. AWS Cloud Shell
 
 Easieset way to run AWS CLI is through **web/cloud shell** from a regular AWS account
 
 **Note**: If you are are using quicklabs, web shell may be disabled.
+
+* [Cloud shell quick start](https://docs.aws.amazon.com/cloudshell/latest/userguide/welcome.html)
+* [Getting started with AWS CloudShell](https://docs.aws.amazon.com/cloudshell/latest/userguide/getting-started.html)
+
+Try this command to see if the shell is configured correctly
+
+```bash
+$   aws ec2  describe-instances
+$   aws ec2 --region us-west-1 describe-instances
+```
+
+---
+
+## 2. AWS-CLI
 
 Or you can install AWS CLI on your local computer.
 

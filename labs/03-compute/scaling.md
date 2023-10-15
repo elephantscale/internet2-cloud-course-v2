@@ -20,7 +20,9 @@
 * In this lab you will setup auto scaling policy for VMs and test them
 * Runtime: 2 hours
 * Level: Intermediate
-* Instructions: [Maintaining High Availability with Auto Scaling](https://amazon.qwiklabs.com/focuses/54815?parent=catalog)
+* Instructions:
+    - Qwiklabs: [Maintaining High Availability with Auto Scaling](https://amazon.qwiklabs.com/focuses/54815?parent=catalog)
+    - AWS: [Get started with Amazon EC2 Auto Scaling](https://docs.aws.amazon.com/autoscaling/ec2/userguide/get-started-with-ec2-auto-scaling.html)
     - You may skip the notifications setup using SNS
 
 ---

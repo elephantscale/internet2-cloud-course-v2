@@ -21,7 +21,9 @@
 * This lab will walk you through, how to setup a VM and install a simple web server on it.
 * Runtime: 40 mins
 * Level: Intro
-* Instructions: [Creating a Virtual Machine](https://www.cloudskillsboost.google/focuses/3563?catalog_rank=%7B%22rank%22%3A6%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=22871506)
+* Instructions: 
+    - Cloudskillsboost: [Creating a Virtual Machine](https://www.cloudskillsboost.google/focuses/3563?catalog_rank=%7B%22rank%22%3A6%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=22871506)
+    - GCP: [Create a Linux VM instance in Compute Engine](https://cloud.google.com/compute/docs/create-linux-vm-instance)
 
 ---
 
@@ -38,7 +40,9 @@
 * This lab will walk you through how to launch an EC2 instance, and setup a webserver on it.  It also shows how to access the instance using SSH and resizing disks ..etc
 * Runtime: 1 hr
 * Level: Intro
-* Instructions: [Introduction to Amazon EC2](https://amazon.qwiklabs.com/focuses/57537?catalog_rank=%7B%22rank%22%3A13%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=22871637)
+* Instructions: 
+    - Qwiklabs: [Introduction to Amazon EC2](https://amazon.qwiklabs.com/focuses/57537?catalog_rank=%7B%22rank%22%3A13%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=22871637)
+    - AWS: [Launch an instance using the old launch instance wizard](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/launching-instance.html)
 
 ---
 
@@ -52,7 +56,7 @@
 
 * Create a Linux VM on Azure
 * Runtime: 1 hr
-* Instructions: [Create a Linux virtual machine in Azure](https://learn.microsoft.com/en-us/training/modules/create-linux-virtual-machine-in-azure/)
+* Instructions: Azure - [Create a Linux virtual machine in Azure](https://learn.microsoft.com/en-us/training/modules/create-linux-virtual-machine-in-azure/)
 
 ---
 

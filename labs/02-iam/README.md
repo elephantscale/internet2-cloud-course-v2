@@ -9,10 +9,16 @@
 
 * Setup and manage users
 * Runtime: 45 mins
-* Instructions - [Introduction to AWS Identity and Access Management (IAM)](https://amazon.qwiklabs.com/focuses/56624?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=21967144)
+* Instructions:
+    - For Qwiklabs: [Introduction to AWS Identity and Access Management (IAM)](https://amazon.qwiklabs.com/focuses/56624?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=21967144)
+    - For regular AWS: [Getting started with IAM](https://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started.html)
+        - Create an IAM user following the guide
+
 * Notes
     - To see what each group can do, check the **permissions** tab
     - [IAM roles doc](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/iam-roles-for-amazon-ec2.html)
+
+---
 
 ## Google
 
@@ -21,6 +27,8 @@
 * Instructions - [Cloud IAM: Qwik Start](https://www.cloudskillsboost.google/focuses/44159?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=21967166)
 * Notes
     - [Understanding users and roles](https://cloud.google.com/iam/docs/understanding-roles)
+
+---
 
 ## Azure
 
@@ -31,17 +39,23 @@
 * Notes:
     - [Azure user roles documentation](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference)
 
+---
+
 ## Advanced (Optional) - Audit Users (AWS)
 
 * Audit user accounts
 * Runtime: 1 hr
 * Instructions - [Performing a Basic Audit of your AWS Environment](https://amazon.qwiklabs.com/focuses/46476?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=21967269)
 
+---
+
 ## Advanced (Optional) - Trusted Advisor (AWS)
 
 * AWS Trusted advisor
 * Runtime: 1hr 30 mins
 * Instructions - [Auditing Your Security with AWS Trusted Advisor](https://amazon.qwiklabs.com/focuses/44400?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=21967287)
+
+---
 
 ## Advanced (Optional) - Ensure Access & Identity in Google Cloud (Google)
 

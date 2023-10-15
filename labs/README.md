@@ -6,6 +6,13 @@
 * For Google: [www.cloudskillsboost.google](https://www.cloudskillsboost.google/)
 * For Azure: [portal.azure.com](https://portal.azure.com/)
 
+**AWS Update**
+
+https://www.wellarchitectedlabs.com/
+
+And here is how to setup [AWS IAM accounts](aws-iam.md) for the class
+
+
 Few things to note:
 
 * **Use seperate PRIVATE / INCOGNITO browser windows, when switching users, so you are working on isolated environments**
