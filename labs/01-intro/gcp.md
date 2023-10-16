@@ -1,8 +1,16 @@
 # GCP CLI
 
+## Cloud Shell
+
 Easiest way to run GCP commands is via **web/cloud shell** in GCP console.
 
 **Note**: If you are are using quicklabs, web shell may be disabled.
+
+* Get familiar with cloud shell and command line tooling
+* Runtime: 45 mins
+* Instructions: [Getting Started with Cloud Shell and gcloud](https://www.cloudskillsboost.google/focuses/563?parent=catalog)
+
+## Installing GCloud on your Computer
 
 Or you can install GCP CLI on your local computer
 

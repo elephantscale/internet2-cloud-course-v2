@@ -6,8 +6,13 @@ Easieset way to run AWS CLI is through **web/cloud shell** from a regular AWS ac
 
 **Note**: If you are are using quicklabs, web shell may be disabled.
 
-* [Cloud shell quick start](https://docs.aws.amazon.com/cloudshell/latest/userguide/welcome.html)
-* [Getting started with AWS CloudShell](https://docs.aws.amazon.com/cloudshell/latest/userguide/getting-started.html)
+* This lab will walk you through accessing AWS using the CLI (Command Line Interface)
+* Runtime: 1 hr 15 mins
+* Level: Intro
+* Instructions:
+    - Qwiklabs: [Automating AWS Services with Scripting and the AWS CLI](https://amazon.qwiklabs.com/focuses/58181?catalog_rank=%7B%22rank%22%3A6%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=22871713)
+    - AWS: [Cloud shell quick start](https://docs.aws.amazon.com/cloudshell/latest/userguide/welcome.html)
+    - AWS:  [Getting started with AWS CloudShell](https://docs.aws.amazon.com/cloudshell/latest/userguide/getting-started.html)
 
 Try this command to see if the shell is configured correctly
 
@@ -18,7 +23,7 @@ $   aws ec2 --region us-west-1 describe-instances
 
 ---
 
-## 2. AWS-CLI
+## 2. AWS-CLI on your computer
 
 Or you can install AWS CLI on your local computer.
 

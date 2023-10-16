@@ -1,8 +1,21 @@
 # Azure CLI
 
+## Azure Webshell
+
 Easiest way to run Azure commands is via **web/cloud shell** in Azure console.
 
 **Note**: If you are are using free/trial tier, web shell may be disabled.
+
+* Start webshell by clicking the icon
+* Try the following commands
+
+```bash
+$   az --version
+
+$   az resource list
+```
+
+## Install AZ CLI on your computer
 
 Or you can install Azure CLI on your local computer
 
