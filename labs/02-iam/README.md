@@ -41,6 +41,12 @@
 
 ---
 
+## More Complex Permissions
+
+See here [iam2.md](iam2.md)
+
+---
+
 ## Advanced (Optional) - Audit Users (AWS)
 
 * Audit user accounts

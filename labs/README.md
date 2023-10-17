@@ -40,6 +40,7 @@ Manage users and permissions.
 [02-iam/](02-iam/)
 
 * [02.1 - IAM management](02-iam/README.md)
+* [02.2 - Advanced IAM](02-iam/iam2.md)
 
 ### 03 - Compute
 
