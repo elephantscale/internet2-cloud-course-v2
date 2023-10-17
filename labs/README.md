@@ -58,6 +58,14 @@ Dealing with blob/file storage systems.
 
 * [04.1 - Cloud Storage](04-storage/README.md)
 
+### Practice Lab 1
+
+* [Storage and compute practice lab](practice-labs/1-computer-storage.md)
+
+### Practice Lab 2
+
+* [Setup LAMP stack](practice-labs/2-lamp-stack.md)
+
 ### 05 - Data Stores
 
 Databases, noSQLs ..etc

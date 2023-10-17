@@ -89,7 +89,9 @@ Follow the guide to connect to BigTable from Python
 
 * Try out 
 * Runtime: 45 mins
-* Instructions: [Introduction to Amazon DynamoDB](https://amazon.qwiklabs.com/focuses/51801?catalog_rank=%7B%22rank%22%3A4%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=22819312)
+* Instructions:
+    - Qwiklabs: [Introduction to Amazon DynamoDB](https://amazon.qwiklabs.com/focuses/51801?catalog_rank=%7B%22rank%22%3A4%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=22819312)
+    - AWS: [Getting started with DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStartedDynamoDB.html)
 
 ---
 
@@ -100,7 +102,8 @@ This lab uses python client to connect to DynamoDB.  You will need to have a pyt
 **Lab: Amazon DynamoDB Scans, Queries, and Indexes**
 
 * Runtime: 1hr 30 mins
-* Instructions: [Amazon DynamoDB Scans, Queries, and Indexes](https://amazon.qwiklabs.com/focuses/38484?catalog_rank=%7B%22rank%22%3A5%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=22819380)
+* Instructions: 
+    - Qwiklabs: [Amazon DynamoDB Scans, Queries, and Indexes](https://amazon.qwiklabs.com/focuses/38484?catalog_rank=%7B%22rank%22%3A5%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=22819380)
 
 ---
 

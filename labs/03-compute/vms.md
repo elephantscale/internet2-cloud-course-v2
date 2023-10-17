@@ -21,9 +21,19 @@
 * This lab will walk you through, how to setup a VM and install a simple web server on it.
 * Runtime: 40 mins
 * Level: Intro
-* Instructions: 
+* Instructions:
     - Cloudskillsboost: [Creating a Virtual Machine](https://www.cloudskillsboost.google/focuses/3563?catalog_rank=%7B%22rank%22%3A6%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=22871506)
     - GCP: [Create a Linux VM instance in Compute Engine](https://cloud.google.com/compute/docs/create-linux-vm-instance)
+
+---
+
+## Google-2: (Intermediate) Create a VM Using CLI
+
+* Launch an instance using CLI
+* Runtime: 30 mins
+* Instructions:
+    - You can use webshell (easier) or CLI installed on your computer
+    - GCP: [Launch instance using API](https://cloud.google.com/compute/docs/instances/create-start-instance#gcloud)
 
 ---
 
@@ -42,7 +52,19 @@
 * Level: Intro
 * Instructions: 
     - Qwiklabs: [Introduction to Amazon EC2](https://amazon.qwiklabs.com/focuses/57537?catalog_rank=%7B%22rank%22%3A13%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=22871637)
-    - AWS: [Launch an instance using the old launch instance wizard](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/launching-instance.html)
+    - AWS: [Launch an instance using the launch instance wizard](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-launch-instance-wizard.htmll)
+
+---
+
+## AWS-2: (Intermediate): Launch an Instance Using CLI
+
+* Launch an instance using CLI
+* Runtime: 30 mins
+* Instructions:
+    - You can use webshell (easier) or CLI installed on your computer
+    - AWS: [Launch, list, and terminate Amazon EC2 instances](https://docs.aws.amazon.com/cli/latest/userguide/cli-services-ec2-instances.html)
+    - Use the command `aws ec2 run-instances --image-id ami-xxxxxxxx --count 1 --instance-type t2.micro ...`
+
 
 ---
 

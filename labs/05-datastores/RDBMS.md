@@ -47,8 +47,10 @@ Start with this lab
 
 * This lab will get you started with RDS
 * Runtime: 1 hr
-* Instructions: [Introduction to Amazon Relational Database Service (RDS)](https://amazon.qwiklabs.com/focuses/51792?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=22787852)
-    * Create **dev/test** version
+* Instructions: 
+    - Create **dev/test** version for this lab
+    - QWiklabs: [Introduction to Amazon Relational Database Service (RDS)](https://amazon.qwiklabs.com/focuses/51792?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=22787852)
+    - AWS: [Creating and connecting to a MySQL DB instance](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_GettingStarted.CreatingConnecting.MySQL.html)
 
 Once your DB instance is running, explore the following:
 
