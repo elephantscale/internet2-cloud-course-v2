@@ -32,7 +32,7 @@
 
 * Do a a logistic regression using native implemenation of Sagemaker
 * Runtime: 30 mins
-* Upload the notebook: **labs/08-ml/testing-123-sagemaker.ipynb**
+* Upload the notebook: **labs/07-ml/testing-123-sagemaker.ipynb**
 * And run it
 
 ---

@@ -12,7 +12,6 @@ https://www.wellarchitectedlabs.com/
 
 And here is how to setup [AWS IAM accounts](aws-iam.md) for the class
 
-
 Few things to note:
 
 * **Use seperate PRIVATE / INCOGNITO browser windows, when switching users, so you are working on isolated environments**
@@ -58,11 +57,11 @@ Dealing with blob/file storage systems.
 
 * [04.1 - Cloud Storage](04-storage/README.md)
 
-### Practice Lab 1
+### Practice Lab 1: Combining Storage & Compute
 
 * [Storage and compute practice lab](practice-labs/1-computer-storage.md)
 
-### Practice Lab 2
+### Practice Lab 2: Setting up a LAMP Stack
 
 * [Setup LAMP stack](practice-labs/2-lamp-stack.md)
 
@@ -75,7 +74,7 @@ Databases, noSQLs ..etc
 * [05.1 - RDMBS](05-datastores/RDBMS.md)
 * [05.2 - NoSQL](05-datastores/NoSQL.md)
 
-## 06 - Networking
+### 06 - Networking
 
 Create VPCs, firewall rules ..etc
 
@@ -83,20 +82,24 @@ Create VPCs, firewall rules ..etc
 
 * [06.1 - VPC Networks](06-networking/README.md)
 
-## 07 - AI/ML
+### Practice Lab 3: Network Architecture for a Web Stack
+
+* [Design and implement a network archiceture for web stack](practice-labs/3-networking.md)
+
+### 07 - AI/ML
 
 * [07.1 - Jupyter notebooks on the cloud](07-ml/ml-1-jupyter-envs.md)
 * [07.2 - Native ML environments in the Cloud](07-ml/ml-2-native-ML-envs.md)
 * [07.3 - The power of GPU](07-ml/ml-3-gpu.md)
 
-## 08 - Containers
+### 08 - Containers
 
 [08-containers/](08-containers/)
 
 * [08.1 - Docker](08-containers/docker.md)
 * [08-2 - **Fun with containers!**](08-containers/container-fun.md)
 
-## 09 - Kubernetes
+### 09 - Kubernetes
 
 [09-kubernetes/](09-kubernetes/)
 
@@ -105,7 +108,7 @@ Create VPCs, firewall rules ..etc
 * [09.3 - Kubernetes in the cloud](09-kubernetes/kubernetes-3-cloud.md)
 * [09.4 - Rolling out deployments](09-kubernetes/kubernetes-3d-deployment-rollout.md)
 
-## 10 - Infrastructure as Code (IaC) - Terraform
+### 10 - Infrastructure as Code (IaC) - Terraform
 
 [10-iac-tf/](10-iac-tf/)
 
@@ -114,7 +117,7 @@ Create VPCs, firewall rules ..etc
 * [10.3 - Team exercise: Manage a blue/green deployment using TF](10-iac-tf/terraform-3-blue-green-deployment.md)
 * [10.4 - Team exercise: Deploy a kubernetes cluster using TF](10-iac-tf/terraform-4-kubernetes.md)
 
-## 11 - Infrastructure as Code (IaC) - Ansible
+### 11 - Infrastructure as Code (IaC) - Ansible
 
 * [11.1 - Install Ansible](11-iac-ansible/ansible-1-install.md)
 * [11.2 - Setting up inventory](11-iac-ansible/ansible-2-inventory.md)
@@ -127,8 +130,8 @@ More ansible labs:
 
 * [elephantscale/ansible-labs](https://github.com/elephantscale/ansible-labs)
 
-## 12 - Billing and Cost Optimization
+### 12 - Billing and Cost Optimization
 
 * [12.1 - Analyzing billing](12-cost/billing.md)
 
-## 13 - Wrap up and Next Steps
+### 13 - Wrap up and Next Steps
