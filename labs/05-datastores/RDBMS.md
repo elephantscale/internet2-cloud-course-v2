@@ -10,11 +10,13 @@ These are traditioanl RDBMS we think of - MySQL, SQL Server, Postgres, Oracle ..
 
 ### 1.1 - Getting Started with RDBMS in Google Cloud
 
-Documentation - [Cloud SQL](https://cloud.google.com/sql/mysql)
+Documentation - [Cloud SQL](https://cloud.google.com/sql/)
 
 * This lab will guide you setting up MySQL, Postgres or SQL Server on Google Cloud.  Choose any of the above options
 * Runtime : 30-40 mins
-* Instructions: [GSP151 - Cloud SQL for MySQL](https://www.cloudskillsboost.google/focuses/936?catalog_rank=%7B%22rank%22%3A5%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=22785451)
+* Instructions: Try one of these
+    - For MySQL: [GSP151 - Cloud SQL for MySQL](https://www.cloudskillsboost.google/focuses/936?catalog_rank=%7B%22rank%22%3A5%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=22785451)
+    - For Postgres: [Cloud SQL for PostgreSQL](https://www.cloudskillsboost.google/focuses/937?catalog_rank=%7B%22rank%22%3A4%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=27886709)
     * Create **dev/test** version
 
 Once your DB instance is running, explore the following:
@@ -34,8 +36,9 @@ High level instructions:
 * Create another VM (client VM)
 * From DB: Authorize the VM's IP to connect
 * From VM: Try to connect using a client like `mysql`
-
-For detailed instructions follow this lab:  []()
+* Instructions:
+    - [Connceting from Cloudshell](https://cloud.google.com/sql/docs/mysql/connect-instance-cloud-shell)
+    - [Connecting from an instance](https://cloud.google.com/sql/docs/mysql/connect-admin-ip)
 
 ---
 
