@@ -1,6 +1,6 @@
 # Setting up LAMP Stack
 
-Setup a LAMP (Linux, Apache, MysQL, PHP/Python) on a single Linux machine
+Setup a LAMP (Linux, Apache, MySQL, PHP/Python) on a single Linux machine
 
 You can use the following guide
 

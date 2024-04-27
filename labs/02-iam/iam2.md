@@ -1,6 +1,6 @@
 # IAM Complex Permissions
 
-The default IAM roles sometimes can be inadequate for fine grained controls.  More fine-grained policies can be applied using policy files
+The default IAM roles sometimes can be inadequate for fine-grained controls.  More fine-grained policies can be applied using policy files
 
 ## AWS
 
@@ -52,9 +52,9 @@ gcloud iam roles create ROLE_ID--organization=ORGANIZATION_ID \
 
 ## Generating Policies with ChatGPT :-) 
 
-The policies can be complex, but chatgpt can help you!
+The policies can be complex, but ChatGPT can help you!
 
-Here is the prompt for chatgpt (v4)
+Here is the prompt for ChatGPT (v4)
 
 ```text
 create an iam policy for aws like this.

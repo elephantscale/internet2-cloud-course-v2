@@ -32,5 +32,5 @@ Slides
     * Terraform
     * Ansible
     * Cost management
-    * Wrapup
+    * Wrap up
 ---

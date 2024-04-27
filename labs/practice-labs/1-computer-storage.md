@@ -2,12 +2,12 @@
 
 You can use any cloud environment.
 
-In this lab set up the following
+In this lab, complete the following:
 
 * Setup an bucket and upload an image file into it
-* Setup a computer instance
+* Setup a compute instance
 * Setup a web server (nginx or apache)
-* Create a web page (a.html).  Display the image uploaded into the bucket.  You can use the html snippet below as a starter
+* Create a web page (a.html).  Display the image uploaded into the bucket.  You can use the HTML snippet below as a starter
 
 
 ```html

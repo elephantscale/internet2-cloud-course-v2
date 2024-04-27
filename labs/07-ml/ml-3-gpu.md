@@ -2,9 +2,9 @@
 
 ## Overview
 
-GPU is the 'workhorse' of compute intensive workloads.  Here we will work through a few notebooks to see the impact of GPU
+GPU is the 'workhorse' of compute-intensive workloads.  Here, we will work through a few notebooks to see the impact of GPU
 
-I have put together a repository of [Cool ML Demos](https://github.com/elephantscale/cool-ML-demos).  The image section has good notebooks to test CPU
+I have put together a repository of [Cool ML Demos](https://github.com/elephantscale/cool-ML-demos).  The image section has good notebooks to test the CPU
 
 ---
 

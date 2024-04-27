@@ -10,7 +10,7 @@
 * Setup and manage users
 * Runtime: 45 mins
 * Instructions:
-    - For Qwiklabs: [Introduction to AWS Identity and Access Management (IAM)](https://amazon.qwiklabs.com/focuses/56624?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=21967144)
+    - For Skillbuilder: [Introduction to AWS Identity and Access Management (IAM)](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/880/introduction-to-aws-identity-and-access-management-iam)
     - For regular AWS: [Getting started with IAM](https://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started.html)
         - Create an IAM user following the guide
 

@@ -1,6 +1,6 @@
 # Networking / VPC
 
-Learn about how to setup VPC (Virtual Private Clouds) and Firewalls
+Learn how to setup a VPC (Virtual Private Clouds) and Firewalls
 
 ---
 
@@ -11,9 +11,7 @@ Learn about how to setup VPC (Virtual Private Clouds) and Firewalls
 **Lab: Building Your First Amazon Virtual Private Cloud (VPC)**
 
 * Runtime: 1 hr
-* Instructions: [Building Your First Amazon Virtual Private Cloud (VPC)](https://amazon.qwiklabs.com/focuses/50937?catalog_rank=%7B%22rank%22%3A4%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=22849371)
-    * Here you can approximate by only having 1 db instance (no redundancy needed)
-    * No need for a gateway, you can skip that
+* Instructions: [Building Your First Amazon Virtual Private Cloud (VPC)](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/409/building-your-first-amazon-virtual-private-cloud-vpc)
 
 ---
 
@@ -25,7 +23,7 @@ Learn about how to setup VPC (Virtual Private Clouds) and Firewalls
 
 ### Lab G1.1: VPC Networking Fundamentals (Recommended)
 
-* Pretty straight-forward lab that walks you through basics of VPC, subnets, firewall rules ..etc
+* A pretty straight-forward lab that walks you through the basics of VPC, subnets, firewall rules ..etc
 * Runtime: 1 hr
 * Instructions: [VPC Networking Fundamentals](https://www.cloudskillsboost.google/focuses/1229?catalog_rank=%7B%22rank%22%3A8%2C%22num_filters%22%3A1%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=22849451)
 
@@ -34,19 +32,6 @@ Learn about how to setup VPC (Virtual Private Clouds) and Firewalls
 * Do the same as lab  G1.1, but using `gcloud` command line.  This is useful for creating configurations from scripts
 * Runtime: 45 mins
 * Instructions: [Configuring Networks via gcloud](https://www.cloudskillsboost.google/focuses/7140?catalog_rank=%7B%22rank%22%3A4%2C%22num_filters%22%3A1%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=22850505)
-
----
-
-## Google-2: Multiple VPC Networks **(Recommended Lab)**
-
-* This is an intermediate lab.  You will create multiple VPC networks and VMs and test connectivity across networks.  
-* See the diagram for the highlevel architecture
-* Runtime: 1 hr 15 mins
-* Instructions: [Multiple VPC Networks](https://www.cloudskillsboost.google/focuses/1230?catalog_rank=%7B%22rank%22%3A5%2C%22num_filters%22%3A1%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=22850558)
-* This is a good lab to get acquinted with defining multiple networks and access rules.
-* **NOTE: follow instructions precisely, do not skip any steps!**
-
-<img src="https://cdn.qwiklabs.com/OBtRY37ZCmWiHi%2FHsG8XCSGDBfsuKk3IMJVgQscsg2E%3D">
 
 
 ---
@@ -62,6 +47,6 @@ Learn about how to setup VPC (Virtual Private Clouds) and Firewalls
 
 ---
 
-## BONUS: Practice Lab:  Design a Network Archiecture for Web Stack
+## BONUS: Practice Lab:  Design a Network Architecture for Web Stack
 
 See [../practice-labs/3-networking.md](../practice-labs/3-networking.md)

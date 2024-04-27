@@ -2,14 +2,14 @@
 
 ## Overview
 
-Using hosted Jupyter notebook environments in the cloud
+Using hosted Jupyter Notebook environments in the cloud
 
 ## References
 
 * [Six easy ways to run your Jupyter Notebook in the cloud](https://www.dataschool.io/cloud-services-for-jupyter-notebook/)
 * [Choosing the Right JupyterHub Infrastructure](https://data.berkeley.edu/choosing-right-jupyterhub-infrastructure)
 
-Here are some machine learning notebook repos:
+Here are some machine-learning notebook repos:
 
 * [elephantscale/machine-learning-workshop](https://github.com/elephantscale/machine-learning-workshop)
 * [elephantscale/cool-ML-demos](https://github.com/elephantscale/cool-ML-demos)
@@ -25,7 +25,7 @@ Here are some machine learning notebook repos:
 
 ## GOOGLE-1: Testing Colab
 
-* Run a test Jupyter notebook on Google COLAB
+* Run a test Jupyter Notebook on Google COLAB
 * Runtime: 10 mins
 * Prerequisites:
     * Colab is free to use.  You will need a Google account;  login using your Google account

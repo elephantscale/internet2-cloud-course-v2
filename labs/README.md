@@ -2,9 +2,9 @@
 
 ## Lab Environments
 
-* For AWS: [amazon.qwiklabs.com](https://amazon.qwiklabs.com/)
-* For Google: [www.cloudskillsboost.google](https://www.cloudskillsboost.google/)
-* For Azure: [portal.azure.com](https://portal.azure.com/)
+* For AWS: [Amazon Skillbuilder](https://skillbuilder.aws/)
+* For Google: [Google Cloud Skills Boost](https://www.cloudskillsboost.google/)
+* For Azure: [Azure Portal](https://portal.azure.com/)
 
 **AWS Update**
 

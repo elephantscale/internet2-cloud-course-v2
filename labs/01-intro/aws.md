@@ -2,15 +2,13 @@
 
 ## 1. AWS Cloud Shell
 
-Easieset way to run AWS CLI is through **web/cloud shell** from a regular AWS account
-
-**Note**: If you are are using quicklabs, web shell may be disabled.
+**Note**: If you are using Skillbuilder, web shell may be disabled.
 
 * This lab will walk you through accessing AWS using the CLI (Command Line Interface)
 * Runtime: 1 hr 15 mins
 * Level: Intro
 * Instructions:
-    - Qwiklabs: [Automating AWS Services with Scripting and the AWS CLI](https://amazon.qwiklabs.com/focuses/58181?catalog_rank=%7B%22rank%22%3A6%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=22871713)
+    - Skillbuilder: [Automating AWS Services with Scripting and the AWS CLI](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/496/automating-aws-services-with-scripting-and-the-aws-cli)
     - AWS: [Cloud shell quick start](https://docs.aws.amazon.com/cloudshell/latest/userguide/welcome.html)
     - AWS:  [Getting started with AWS CloudShell](https://docs.aws.amazon.com/cloudshell/latest/userguide/getting-started.html)
 
@@ -25,7 +23,7 @@ $   aws ec2 --region us-west-1 describe-instances
 
 ## 2. AWS-CLI on your computer
 
-Or you can install AWS CLI on your local computer.
+You can also install AWS CLI on your local computer.
 
 ## Installing AWS-CLI
 
@@ -33,7 +31,7 @@ If you are going to be working with AWS, it is highly recommended that you insta
 
 [Install guide for latest AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 
-Also [complete the setup](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-prereqs.html).  This will show you how to get access keys.
+Also, [complete the setup](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-prereqs.html).  This will show you how to get access keys.
 
 ### Verifying
 

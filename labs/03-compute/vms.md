@@ -18,7 +18,7 @@
 
 ## Google-1: Creating a VM in Google Cloud (Basic)
 
-* This lab will walk you through, how to setup a VM and install a simple web server on it.
+* This lab will walk you through setting up a VM and installing a simple web server on it.
 * Runtime: 40 mins
 * Level: Intro
 * Instructions:
@@ -47,11 +47,11 @@
 
 ## AWS-1: Introduction to Amazon EC2
 
-* This lab will walk you through how to launch an EC2 instance, and setup a webserver on it.  It also shows how to access the instance using SSH and resizing disks ..etc
+* This lab will walk you through launching an EC2 instance and setting up a web server on it.  It also shows how to access the instance using SSH and resizing disks ..etc
 * Runtime: 1 hr
 * Level: Intro
 * Instructions: 
-    - Qwiklabs: [Introduction to Amazon EC2](https://amazon.qwiklabs.com/focuses/57537?catalog_rank=%7B%22rank%22%3A13%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=22871637)
+    - Skillbuilder: [Introduction to Amazon EC2](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/1095/introduction-to-amazon-ec2)
     - AWS: [Launch an instance using the launch instance wizard](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-launch-instance-wizard.htmll)
 
 ---
@@ -90,9 +90,9 @@
 
 [Azure VM types](https://azure.microsoft.com/en-us/pricing/details/virtual-machines/series/)
 
-**Discuss VM types for following use cases**
+**Discuss VM types for the following use cases**
 
-**What are specific VM types (i.e. m2.xlarge) you might choose for each use case**
+**What are specific VM types (i.e., m2.xlarge) you might choose for each use case**
 
 **Do a cost comparison (per month) across various clouds**
 
@@ -115,6 +115,6 @@
 
 ### E. GPU Machine for Deep Learning
 
-* Need cutting edge GPU
+* Need cutting-edge GPU
 
 ---

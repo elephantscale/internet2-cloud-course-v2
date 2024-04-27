@@ -3,7 +3,7 @@
 ## Objectives
 
 * Get access to various cloud systems
-* Tour of Qwiklabs for AWS and Google Cloud
+* Tour of lab platforms for AWS and Google Cloud
 * Azure Labs introduction
 * Lab access credentials will be provided before the class.
 
@@ -13,7 +13,7 @@
 
 * Quick overview of Google cloud features
 * Runtime: 45 mins
-* Instructions: [A Tour of Qwiklabs and Google Cloud](https://www.cloudskillsboost.google/catalog?keywords=A%20Tour%20of%20Qwiklabs%20and%20Google%20Cloud)
+* Instructions: [A Tour of Google Cloud](https://www.cloudskillsboost.google/focuses/2794?parent=catalog)
 
 ---
 

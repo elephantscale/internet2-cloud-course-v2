@@ -15,13 +15,13 @@ NoSQL Stores available
 
 ---
 
-## Google-0: BigTable
+## Google-0: Bigtable
 
 [Google databases overview](https://cloud.google.com/products/databases/)
 
-[Big table overview](https://cloud.google.com/bigtable/)
+[Bigtable overview](https://cloud.google.com/bigtable/)
 
-[Big table docuemntation](https://codelabs.developers.google.com/codelabs/cloud-bigtable-intro-java/index.html#0)
+[Bigtable docuemntation](https://codelabs.developers.google.com/codelabs/cloud-bigtable-intro-java/index.html#0)
 
 ---
 
@@ -30,7 +30,7 @@ NoSQL Stores available
 * Get handson with big table
 * Runtime: 30 mins
 * Instructions: [Bigtable: Qwik Start - Command Line](https://www.cloudskillsboost.google/focuses/579?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=22818504)
-* Once you executed 
+* Once you've executed 
 
     ```bash
         cbt set my-table r1 cf1:c1=test-value
@@ -49,7 +49,7 @@ NoSQL Stores available
     $   cbt read my-table
     ```
 
-* What values you see?  Notice the modification timestamps
+* What values do you see?  Notice the modification timestamps
 
 * Create another row `r2`, with a new column `c10`
 
@@ -65,13 +65,13 @@ NoSQL Stores available
 
 ---
 
-## Google-2: (Bonus / Advanced Lab)  Use Python API to Connect to BigTable
+## Google-2: (Bonus / Advanced Lab)  Use Python API to Connect to Bigtable
 
-Use a python client to connect to BigTable.
+Use a python client to connect to Bigtable.
 
 Browse sample code here [python-bigtable](https://github.com/googleapis/python-bigtable/tree/1058c7367ab2d0e523639302b18f25edc8a42291/samples/hello)
 
-Follow the guide to connect to BigTable from Python
+Follow the guide to connect to Bigtable from Python
 
 ---
 
@@ -90,7 +90,7 @@ Follow the guide to connect to BigTable from Python
 * Try out 
 * Runtime: 45 mins
 * Instructions:
-    - Qwiklabs: [Introduction to Amazon DynamoDB](https://amazon.qwiklabs.com/focuses/51801?catalog_rank=%7B%22rank%22%3A4%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=22819312)
+    - Skillbuilder: [Introduction to Amazon DynamoDB](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/884/introduction-to-amazon-dynamodb)
     - AWS: [Getting started with DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStartedDynamoDB.html)
 
 ---
@@ -103,7 +103,7 @@ This lab uses python client to connect to DynamoDB.  You will need to have a pyt
 
 * Runtime: 1hr 30 mins
 * Instructions: 
-    - Qwiklabs: [Amazon DynamoDB Scans, Queries, and Indexes](https://amazon.qwiklabs.com/focuses/38484?catalog_rank=%7B%22rank%22%3A5%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=22819380)
+    - Skillbuilder: [Amazon DynamoDB Scans, Queries, and Indexes](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/1127/amazon-dynamodb-scans-queries-and-indexes)
 
 ---
 
@@ -119,7 +119,7 @@ This lab uses python client to connect to DynamoDB.  You will need to have a pyt
 * Runtime : 30 mins
 * Go to [portal.azure.com](https://portal.azure.com/)  or you can try a free version here: [Start with cosmos](https://cosmos.azure.com/try/)
     * And create a 'CosmosDB' instance.  The steps are pretty straight forward
-* Follow this guide: [Quickstart: Create an Azure Cosmos DB accoun](https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/quickstart-portal)
+* Follow this guide: [Quickstart: Create an Azure Cosmos DB account](https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/quickstart-portal)
 * Choose **python platform**
 * This will download a python bundle for us to run.  Save this file
 * We will use **data explorer** to put/get items into Cosmos.

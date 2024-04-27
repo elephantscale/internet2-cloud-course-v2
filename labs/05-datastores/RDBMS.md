@@ -12,12 +12,17 @@ These are traditioanl RDBMS we think of - MySQL, SQL Server, Postgres, Oracle ..
 
 Documentation - [Cloud SQL](https://cloud.google.com/sql/)
 
-* This lab will guide you setting up MySQL, Postgres or SQL Server on Google Cloud.  Choose any of the above options
+* This lab will guide you in setting up MySQL, Postgres, or SQL Server on Google Cloud.  Choose any of the following options
 * Runtime : 30-40 mins
 * Instructions: Try one of these
-    - For MySQL: [GSP151 - Cloud SQL for MySQL](https://www.cloudskillsboost.google/focuses/936?catalog_rank=%7B%22rank%22%3A5%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=22785451)
-    - For Postgres: [Cloud SQL for PostgreSQL](https://www.cloudskillsboost.google/focuses/937?catalog_rank=%7B%22rank%22%3A4%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=27886709)
-    * Create **dev/test** version
+    
+    * Cloudskillsboost
+    
+        * For MySQL: [GSP151 - Cloud SQL for MySQL](https://www.cloudskillsboost.google/focuses/936?catalog_rank=%7B%22rank%22%3A5%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=22785451)
+        * For Postgres: [Cloud SQL for PostgreSQL](https://www.cloudskillsboost.google/focuses/937?catalog_rank=%7B%22rank%22%3A4%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=27886709)
+    
+        * Create **dev/test** version
+    
 
 Once your DB instance is running, explore the following:
 
@@ -25,19 +30,19 @@ Once your DB instance is running, explore the following:
 
 Easiest way to connect to the DB instance is from Gcloud shell.  Follow the prompts on the lab.
 
-Once you are connected, you can try the following steps to create a db and table.  See sections below [Working with MySQL](#working-with-mysql) or [working with postgres](#working-with-postgres)
+Once you are connected, you can try the following steps to create a db and table.  See sections below [Working with MySQL](#working-with-mysql) or [Working with postgres](#working-with-postgres)
 
-### 1.2 - Advacned / Bonus Lab: Connect to DB Instance from a VM
+### 1.2 - Advanced / Bonus Lab: Connect to DB Instance from a VM
 
 In this lab, you will connect to the DB instances from another VM (Think like an application VM).
 
-High level instructions:
+High-level instructions:
 
 * Create another VM (client VM)
 * From DB: Authorize the VM's IP to connect
 * From VM: Try to connect using a client like `mysql`
 * Instructions:
-    - [Connceting from Cloudshell](https://cloud.google.com/sql/docs/mysql/connect-instance-cloud-shell)
+    - [Connecting from Cloudshell](https://cloud.google.com/sql/docs/mysql/connect-instance-cloud-shell)
     - [Connecting from an instance](https://cloud.google.com/sql/docs/mysql/connect-admin-ip)
 
 ---
@@ -52,16 +57,16 @@ Start with this lab
 * Runtime: 1 hr
 * Instructions: 
     - Create **dev/test** version for this lab
-    - QWiklabs: [Introduction to Amazon Relational Database Service (RDS)](https://amazon.qwiklabs.com/focuses/51792?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=22787852)
+    - Cloudskillsboost: [Introduction to Amazon Relational Database Service (RDS)](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/889/introduction-to-amazon-relational-database-service-rds-linux)
     - AWS: [Creating and connecting to a MySQL DB instance](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_GettingStarted.CreatingConnecting.MySQL.html)
 
 Once your DB instance is running, explore the following:
 
-* What is the 'default' hardware configuration allocated (CPU, Memory, Disk)?  Discuss best practices here from your experience and share with the class.
+* What is allocated as the 'default' hardware configuration (CPU, Memory, Disk)?  Discuss best practices here from your experience and share them with the class.
 
-Easiest way to connect to the DB instance is from cloud shell.  Follow the prompts on the lab.
+The easiest way to connect to the DB instance is from the cloud shell.  Follow the prompts in the lab.
 
-Once you are connected, you can try the following steps to create a db and table.  See sections below [Working with MySQL](#working-with-mysql) or [working with postgres](#working-with-postgres)
+Once you are connected, you can try the following steps to create a DB and table.  See sections below [Working with MySQL](#working-with-mysql) or [Working with postgres](#working-with-postgres)
 
 ---
 
