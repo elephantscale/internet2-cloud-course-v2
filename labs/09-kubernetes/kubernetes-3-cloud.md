@@ -2,7 +2,7 @@
 
 ## Overview
 
-Deploying and operating Kuberentes in the cloud.
+Deploying and operating Kubernetes in the cloud.
 
 * [A Comparison of Current Kubernetes Distributions](https://dzone.com/articles/a-comparison-of-current-kubernetes-distributions)
 * [Compare 10 leading container management systems](https://www.techtarget.com/searchitoperations/feature/Rounding-up-leading-container-management-software-in-detail)
@@ -72,9 +72,7 @@ kubectl  get nodes
 kubectl  cluster-info
 ```
 
-**Instructor: Before each lab, go through theory**
-
-Once this k8 cluster is running, try do these labs
+Once the cluster is running, try to do these labs
 
 [Deploy a pod](kubernetes-3a-pod.md)
 
@@ -98,6 +96,12 @@ Once this k8 cluster is running, try do these labs
 
 ---
 
+## AWS Deploy an application on Elastic Kubernetes Service (EKS) (Recommended)
+
+* Instructions: [Deploying an application on Amazon EKS](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/13993/building-and-deploying-a-containerized-application-with-amazon-elastic-kubernetes-service) 
+
+---
+
 ## AWS-1: Kubernetes on AWS
 
 [Amazon Elastic Kubernetes Service (EKS)](https://aws.amazon.com/eks/)
@@ -105,13 +109,13 @@ Once this k8 cluster is running, try do these labs
 * Getting Kubernetes running with AWS
 * Runtime: 1hr 30 mins
 * Prerequisites:
-    * You will need an AWS account with correct permissions
-    * And tools installed locally (the guide will show you how)
+  * You will need an AWS account with the correct permissions
+  * And tools installed locally (the guide will show you how)
 * Instructions: [Getting started with Amazon EKS](https://docs.aws.amazon.com/eks/latest/userguide/getting-started.html)
 
 ---
 
-## AZURE-1: Kube on Azure
+## AZURE-1: Kubernetes on Azure
 
 [Azure Kubernetes Service](https://learn.microsoft.com/en-us/azure/aks/intro-kubernetes)
 
@@ -124,11 +128,11 @@ Once this k8 cluster is running, try do these labs
 
 ---
 
-## AZURE-2: Deploy and Scale an app on Azure K8
+## AZURE-2: Deploy and Scale an app on Azure Kubernetes Service (AKS)
 
 * Prepare an application for Azure Kubernetes Service (AKS)
 * Prerequisites:
-    * You will need an azure account
+    * You will need an Azure account
     * You will need az cli installed and configured
 * Runtime: 1 hr
 * Instructions: [Prepare an application for Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/aks/tutorial-kubernetes-prepare-app)

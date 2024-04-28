@@ -23,11 +23,11 @@ $   docker run hello-world
 
 ## DOCKER-1B: Getting a VM in the Cloud to Run Docker
 
-If you don't have a docker capable environment, you can provision a VM in the cloud.
+If you don't have a Docker capable environment, you can provision a VM in the cloud.
 
-* Here is how to [provision a VM in Google Cloud](https://www.cloudskillsboost.google/focuses/3563?catalog_rank=%7B%22rank%22%3A6%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=22871506) - using qwiklabs
+* Here is how to [provision a VM in Google Cloud](https://www.cloudskillsboost.google/focuses/3563?catalog_rank=%7B%22rank%22%3A6%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=22871506) - using Cloudskillsboost
 
-* Here is how to provision a VM in AWS: [Introduction to Amazon EC2](https://amazon.qwiklabs.com/focuses/57537?catalog_rank=%7B%22rank%22%3A13%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=22871637) - using qwiklabs
+* Here is how to provision a VM in AWS: [Introduction to Amazon EC2](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/1095/introduction-to-amazon-ec2) - using Skillsbuilder
 
 * VM specs
     * 2 vCPU, 8 GB
@@ -35,7 +35,7 @@ If you don't have a docker capable environment, you can provision a VM in the cl
     * disk size= 20G
     * Allow HTTP/s traffic
 
-* Once you login to the VM do the following steps to setup docker
+* Once you log in to the VM, do the following steps to set up Docker
 
 ```bash
 sudo apt update
@@ -51,7 +51,7 @@ sudo docker run hello-world
 sudo docker run --rm  -p 80:80  nginx
 ```
 
-if you want to run docker without sudo, try this
+if you want to run docker without sudo, do this
 
 ```bash
 sudo usermod -aG docker $(whoami)
@@ -67,7 +67,7 @@ docker images
 ## DOCKER-2: Browser Docker Hub
 
 * Go to [hub.docker.com](https://hub.docker.com/)
-* Look for some popular images, by searching in search box
+* Look for some popular images by searching in the search box
     * Try these searches:  ubuntu,  apache,  python, mysql
 
 ---
@@ -82,10 +82,12 @@ $   docker pull nginx
 $   docker run --rm  -p 80:80  nginx
 ```
 
-* See the page by going to [localhost:80](http://localhost:80).  If you see 'Welcome to nginx!'  you are good!
+* See the page by going to [localhost](http://localhost).  If you see 'Welcome to nginx!'  you are good!
+
+You can also check from the command line by running.
 
 ```bash
-curl  localhost:80
+curl  localhost
 ```
 
 
@@ -96,24 +98,24 @@ curl  localhost:80
 * Build a sample python web app
 * Runtime: 15 mins
 * [Instructions - follow step-1](flask-docker/README.md)
-* **Note:**  This code is also available at [github repo](https://github.com/sujee/flask-docker), so you can readily fork it and make changes easily
+* **Note:**  This code is also available in the [GitHub repo](https://github.com/sujee/flask-docker), so you can readily fork it and make changes.
 
 ---
 
 ## DOCKER-5: Publish Your Image to Docker Hub
 
-* We are going to publish the image you just built to dockerhub
-* For this, you will need an account with Dockerhub.  It is free.  Please go ahead and create one
+* We are going to publish the image you just built to Docker Hub
+* To do this, you will need an account with Docker Hub.  It is free.  Please go ahead and create one
 * Runtime: 20 mins
 * [Instructions - follow step-2](flask-docker/README.md)
 
 ---
 
-## DOCKER-6: Run Your Published Image in a Cloud Env
+## DOCKER-6: Run Your Published Image in a Cloud Environment
 
-* You can use to any cloud env
-* Spin up a VM - follow cloud specific instructions [here](../03-compute/vms.md)
-* Pull your image and run it.  Replace XYZ with your dockerhub username.
+* You can use any cloud environment
+* Spin up a VM - following cloud specific instructions [here](../03-compute/vms.md)
+* Pull your image and run it.  Replace XYZ with your Docker Hub username.
 
     ```bash
     $   docker pull  XYZ/flask-in-docker
@@ -132,17 +134,9 @@ curl  localhost:80
 
 ## Google-1: Docker at Google
 
-* This will show how to run and build Docker containers on Google Cloud
+* This will show how to build Docker container images, push them to a registry, and run them on Google Cloud
 * Runtime: 1 hr
 * Instructions: [Introduction to Docker](https://www.cloudskillsboost.google/focuses/1029?parent=catalog)
-
----
-
-## Google-2: Container Registry
-
-* How to build a custom Docker image, and push it to Google Container Registry.
-* Runtime: 40 mins
-* Instructions: [Container Registry: Qwik Start](https://www.cloudskillsboost.google/focuses/1768?catalog_rank=%7B%22rank%22%3A7%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=23017194)
 
 ---
 
@@ -154,12 +148,10 @@ curl  localhost:80
 
 ## AWS-1: Introduction to Amazon Elastic Container Registry
 
-* This works within **qwiklabs** environment
+* This works within the **Skillbuilder** environment
 * Shows how to create private repo and push images to it.
 * Runtime: 1 hr
-* Instructions: [Introduction to Amazon Elastic Container Registry](https://amazon.qwiklabs.com/focuses/59617?catalog_rank=%7B%22rank%22%3A2%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=23017637)
-* Notes:
-    * Some instructions are out of date, make adjustments as you go
+* Instructions: [Introduction to Amazon Elastic Container Registry](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/1119/introduction-to-amazon-elastic-container-registry)
 
 ---
 
@@ -168,14 +160,6 @@ curl  localhost:80
 * **NOTE:** This runs in a regular AWS dev environment.  You will need an account and also will use AWS CLI
 * Runtime: 30 mins
 * Instructions: [Deploy a Container Web App on Amazon ECS](https://aws.amazon.com/getting-started/guides/deploy-webapp-ecs/?ref=gsrchandson)
-
----
-
-## AWS-3: Introduction to Amazon Elastic Container Registry
-
-* Build a custom container and publish into ECR
-* Runtime: 1 hr
-* Instructions: [Introduction to Amazon Elastic Container Registry](https://amazon.qwiklabs.com/focuses/59617?catalog_rank=%7B%22rank%22%3A2%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=23017243)
 
 ---
 
