@@ -6,7 +6,7 @@
 * For Google: [Google Cloud Skills Boost](https://www.cloudskillsboost.google/)
 * For Azure: [Azure Portal](https://portal.azure.com/)
 
-**AWS Update**
+**AWS Optional Labs**
 
 https://www.wellarchitectedlabs.com/
 
